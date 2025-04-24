@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import Globe from 'react-globe.gl';
-
+import { baseProfile } from '../constants/profile.js';
 import Button from '../components/Button.jsx';
 
 const About = () => {
   const [hasCopied, setHasCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText(' adrian@jsmastery.pro');
+    navigator.clipboard.writeText(baseProfile.basics.email);
     setHasCopied(true);
 
     setTimeout(() => {
@@ -23,10 +23,9 @@ const About = () => {
             <img src="assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">Hi, I’m Adrian Hajdin</p>
+              <p className="grid-headtext">Hi, I&apos;m {baseProfile.basics.name}</p>
               <p className="grid-subtext">
-                With 12 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
-                and responsive websites.
+                {baseProfile.basics.summary || "Experienced software developer with a strong focus on modern web technologies and mobile development."}
               </p>
             </div>
           </div>
@@ -58,12 +57,12 @@ const About = () => {
                 showGraticules
                 globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
                 bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
-                labelsData={[{ lat: 40, lng: -100, text: 'Rjieka, Croatia', color: 'white', size: 15 }]}
+                labelsData={[{ lat: 52.5200, lng: 13.4050, text: 'Berlin, Germany', color: 'white', size: 15 }]}
               />
             </div>
             <div>
-              <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
-              <p className="grid-subtext">I&apos;m based in Rjieka, Croatia and open to remote work worldwide.</p>
+              <p className="grid-headtext">I&apos;m very flexible with time zone communications & locations</p>
+              <p className="grid-subtext">I&apos;m based in {baseProfile.basics.location.city}, {baseProfile.basics.location.country} and open to remote work worldwide.</p>
               <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
             </div>
           </div>
@@ -95,7 +94,7 @@ const About = () => {
               <p className="grid-subtext text-center">Contact me</p>
               <div className="copy-container" onClick={handleCopy}>
                 <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
-                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">adrian@jsmastery.pro</p>
+                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">{baseProfile.basics.email}</p>
               </div>
             </div>
           </div>
