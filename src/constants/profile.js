@@ -1,117 +1,116 @@
 export const baseProfile = {
-  $schema: "https://jsonresume.org/schema/resume.json",
+  $schema: 'https://jsonresume.org/schema/resume.json',
   basics: {
-    name: "Ali Raza",
-    email: "raza.kontakt@gmail.com",
-    phone: "+49 152 56557306",
-    url: "https://my-cv-b154e.web.app/",
-    summary: "",
+    name: 'Ali Raza',
+    email: 'raza.kontakt@gmail.com',
+    phone: '+49 152 56557306',
+    url: 'https://my-cv-b154e.web.app/',
+    summary: '',
     location: {
-      address: "Bornholmer STR. 17",
-      postalCode: "10439",
-      city: "Berlin",
-      countryCode: "DE",
-      country: "Germany",
-      region: "Berlin",
+      address: 'Bornholmer STR. 17',
+      postalCode: '10439',
+      city: 'Berlin',
+      country: 'Germany',
+      region: 'Berlin',
     },
     profiles: [
       {
-        network: "LinkedIn",
-        username: "ali-raza-munir",
-        url: "https://www.linkedin.com/in/ali-raza-munir/",
+        network: 'LinkedIn',
+        username: 'ali-raza-munir',
+        url: 'https://www.linkedin.com/in/ali-raza-munir/',
       },
     ],
   },
   education: [
     {
-      institution: "Foundation University",
-      area: "Software Engineering",
-      studyType: "B.S.",
-      startDate: "2017",
-      endDate: "2021",
+      institution: 'Foundation University',
+      area: 'Software Engineering',
+      studyType: 'B.S.',
+      startDate: '2017',
+      endDate: '2021',
     },
   ],
   languages: [
     {
-      language: "English",
-      fluency: "Professional",
+      language: 'English',
+      fluency: 'Professional',
     },
     {
-      language: "German",
-      fluency: "Basic",
+      language: 'German',
+      fluency: 'Basic',
     },
   ],
   projects: [
     {
-      name: "College Crafters",
-      position: "Software Engineer",
-      link: "https://www.collegecrafters.org/",
+      name: 'College Crafters',
+      position: 'Software Engineer',
+      link: 'https://www.collegecrafters.org/',
       summary:
-        "College Crafters is an educational consultancy platform that supports students in gaining admission to top global universities. I contributed to the development of their frontend application using React, TypeScript, and Tailwind CSS. My work involved implementing responsive UI components, improving user experience, and ensuring consistency with the design system to provide an intuitive and performant platform for students and counselors.",
+        'College Crafters is an educational consultancy platform that supports students in gaining admission to top global universities. I contributed to the development of their frontend application using React, TypeScript, and Tailwind CSS. My work involved implementing responsive UI components, improving user experience, and ensuring consistency with the design system to provide an intuitive and performant platform for students and counselors.',
     },
     {
-      name: "Dialboxx",
-      position: "Software Engineer (Freelance)",
-      link: "https://dialboxx.com",
+      name: 'Dialboxx',
+      position: 'Software Engineer (Freelance)',
+      link: 'https://dialboxx.com',
       summary:
-        "Dialboxx is a local search engine and online marketplace focused on the Pakistani market, aimed at helping businesses and freelancers transition to digital platforms. As a freelance developer, I handled the complete frontend development using React. I built the user interface from scratch, integrated dynamic search and filtering capabilities, and collaborated with the backend team to ensure smooth data flow and performance across different user devices.",
+        'Dialboxx is a local search engine and online marketplace focused on the Pakistani market, aimed at helping businesses and freelancers transition to digital platforms. As a freelance developer, I handled the complete frontend development using React. I built the user interface from scratch, integrated dynamic search and filtering capabilities, and collaborated with the backend team to ensure smooth data flow and performance across different user devices.',
     },
     {
-      name: "Rawalpindi Cantonment - Management App",
-      position: "Software Engineer",
+      name: 'Rawalpindi Cantonment - Management App',
+      position: 'Software Engineer',
       summary:
-        "Developed a mobile application for Rawalpindi Cantonment residents to manage local governance activities. The app, built using React Native (Expo), Node.js, and MongoDB, allows users to submit complaints, provide suggestions, and participate in voting on community issues. New users can onboard through a QR code scan. The Android-only app is fully functional and actively used by residents for civic engagement and local issue reporting.",
+        'Developed a mobile application for Rawalpindi Cantonment residents to manage local governance activities. The app, built using React Native (Expo), Node.js, and MongoDB, allows users to submit complaints, provide suggestions, and participate in voting on community issues. New users can onboard through a QR code scan. The Android-only app is fully functional and actively used by residents for civic engagement and local issue reporting.',
     },
     {
-      name: "Zip Homes",
-      position: "Software Engineer (Freelance)",
-      link: "http://zip.homes/",
+      name: 'Zip Homes',
+      position: 'Software Engineer (Freelance)',
+      link: 'http://zip.homes/',
       summary:
-        "Zip Homes is a real estate platform offering sustainable and smart housing solutions and virtual tours. As a freelance MERN stack developer, I revitalized both the client-facing application and admin panel. Users can browse home listings, take virtual tours, and customize features. I utilized React, TypeScript, MUI, and Next.js on the frontend, with Node.js on the backend, to deliver a seamless and modern user experience aligned with their real estate brand vision.",
+        'Zip Homes is a real estate platform offering sustainable and smart housing solutions and virtual tours. As a freelance MERN stack developer, I revitalized both the client-facing application and admin panel. Users can browse home listings, take virtual tours, and customize features. I utilized React, TypeScript, MUI, and Next.js on the frontend, with Node.js on the backend, to deliver a seamless and modern user experience aligned with their real estate brand vision.',
     },
     {
-      name: "Uzzapp",
-      position: "Lead Developer",
-      link: "https://uzzapp.com/",
+      name: 'Uzzapp',
+      position: 'Lead Developer',
+      link: 'https://uzzapp.com/',
       summary:
-        "Uzzapp is a digital platform that enables users to find, rent, and book electric vehicle charging stations. As the lead backend developer, I built and managed the server-side logic using Node.js and MongoDB. I also integrated Stripe for payment processing and collaborated with frontend React Native developers to guide the development of the mobile app. Firebase was used for real-time updates and push notifications to enhance the user experience.",
+        'Uzzapp is a digital platform that enables users to find, rent, and book electric vehicle charging stations. As the lead backend developer, I built and managed the server-side logic using Node.js and MongoDB. I also integrated Stripe for payment processing and collaborated with frontend React Native developers to guide the development of the mobile app. Firebase was used for real-time updates and push notifications to enhance the user experience.',
     },
     {
-      name: "QuellxCode",
-      position: "Software Engineer",
-      link: "https://quellxcode.com/",
+      name: 'QuellxCode',
+      position: 'Software Engineer',
+      link: 'https://quellxcode.com/',
       summary:
-        "QuellxCode is a marketing agency based in Islamabad. I developed their official business website to support online presence and client outreach. The site was built using React ,Typescript and hosted on Firebase,",
+        'QuellxCode is a marketing agency based in Islamabad. I developed their official business website to support online presence and client outreach. The site was built using React ,Typescript and hosted on Firebase,',
     },
   ],
   interests: [
     {
-      name: "Community Volunteering",
+      name: 'Community Volunteering',
     },
     {
-      name: "Hiking",
+      name: 'Hiking',
     },
     {
-      name: "Book Reading",
+      name: 'Book Reading',
     },
   ],
   extra_data: {
     cover_letter: {
-      paragraph_1: "",
-      paragraph_2: "",
-      paragraph_3: "",
+      paragraph_1: '',
+      paragraph_2: '',
+      paragraph_3: '',
     },
     hr_email_content: ``,
     final_job_cv_ats_score: 0,
-    LinkedInUrl: "https://www.linkedin.com/in/ali-raza-munir/",
-    LinkedInUsername: "ali-raza-munir",
+    LinkedInUrl: 'https://www.linkedin.com/in/ali-raza-munir/',
+    LinkedInUsername: 'ali-raza-munir',
     imgLink:
-      "https://lh3.googleusercontent.com/pw/AP1GczNYbjvPiHlI_Naau1FC5E-wj0OmC0FrWt13TSCW-12WI9yPvekPxYFLQUaLERW9Z2UdDgKMP5DS6AgsrmBT3FyY4Yhlx8uFqARpDOQct9owVzH6uPOrqp-TXbdJr1CRw-U0IGR8jZAMqAZ5SRE-0gTu8A=w782-h884-s-no-gm",
+      'https://lh3.googleusercontent.com/pw/AP1GczNYbjvPiHlI_Naau1FC5E-wj0OmC0FrWt13TSCW-12WI9yPvekPxYFLQUaLERW9Z2UdDgKMP5DS6AgsrmBT3FyY4Yhlx8uFqARpDOQct9owVzH6uPOrqp-TXbdJr1CRw-U0IGR8jZAMqAZ5SRE-0gTu8A=w782-h884-s-no-gm',
   },
   meta: {
-    canonical: "https://jsonresume.org/schema/",
-    version: "v1.0.0",
-    lastModified: "2025-04-16T17:36:00+02:00",
+    canonical: 'https://jsonresume.org/schema/',
+    version: 'v1.0.0',
+    lastModified: '2025-04-16T17:36:00+02:00',
   },
 };
 
@@ -119,18 +118,18 @@ export const frontendProfile = {
   ...baseProfile,
   basics: {
     ...baseProfile.basics,
-    label: "Frontend Developer",
+    label: 'Frontend Developer',
     summary:
-      "Experienced Frontend Developer with a strong focus on React, TypeScript, and modern web technologies. Passionate about creating responsive, accessible, and performant user interfaces.",
+      'Experienced Frontend Developer with a strong focus on React, TypeScript, and modern web technologies. Passionate about creating responsive, accessible, and performant user interfaces.',
   },
   work: [
     {
-      name: "Kibsons",
-      position: "Software Engineer",
-      link: "https://kibsons.com/",
-      location: "Dubai",
-      startDate: "March 2023",
-      endDate: "March 2025",
+      name: 'Kibsons',
+      position: 'Software Engineer',
+      link: 'https://kibsons.com/',
+      location: 'Dubai',
+      startDate: 'March 2023',
+      endDate: 'March 2025',
       summary: `
 Kibsons – Retail E-Commerce Startup (Dubai)
 Kibsons specializes in delivering fresh produce across Dubai, offering 90-minute delivery service.
@@ -149,12 +148,12 @@ App & Server Management: Managed application deployment and maintenance across p
       highlights: [],
     },
     {
-      name: "Convo",
-      position: "Frontend Developer",
-      location: "Pakistan",
-      startDate: "Nov 2021",
-      link: "https://app.convo.com/",
-      endDate: "March 2023",
+      name: 'Convo',
+      position: 'Frontend Developer',
+      location: 'Pakistan',
+      startDate: 'Nov 2021',
+      link: 'https://app.convo.com/',
+      endDate: 'March 2023',
       summary: `
 Company & Product Background: Convo is both a product company and an SCSS service provider for Silicon Valley clients.
 Web Application Development: Contributed to Convo's web apps and multiple client-side applications, developing custom features and maintaining high performance.
@@ -171,11 +170,11 @@ Extreme Networks Project: Collaborated with Extreme Networks on their Data And P
       highlights: [],
     },
     {
-      name: "Septem Systems",
-      position: "Software Engineer",
-      location: "Pakistan",
-      startDate: "May 2020",
-      endDate: "Oct 2021",
+      name: 'Septem Systems',
+      position: 'Software Engineer',
+      location: 'Pakistan',
+      startDate: 'May 2020',
+      endDate: 'Oct 2021',
       summary: `
 Custom Audio Player Development: Built a custom audio player using Howler.js for the Audio Playground App, developed with Vue.js on the frontend and Node.js on the backend.
 Frontend Collaboration: Worked closely with designers and the product team to create interactive components, including validated forms and an admin dashboard for the Audio Playground App.
@@ -190,27 +189,27 @@ Worked on insure123 app where a React app is loaded in shopify site and renders 
   ],
   skills: [
     {
-      name: "Languages",
-      keywords: ["TypeScript", "JavaScript", "HTML", "CSS"],
+      name: 'Languages',
+      keywords: ['TypeScript', 'JavaScript', 'HTML', 'CSS'],
     },
     {
-      name: "Frameworks & Libraries",
+      name: 'Frameworks & Libraries',
       keywords: [
-        "React.js",
-        "React Native",
-        "Next.js",
-        "Tailwind CSS",
-        "Boorstrap 5",
-        "Zod",
-        "Shadcn UI",
-        "Redux",
-        "Zustand",
-        "Tanstack Query",
+        'React.js',
+        'React Native',
+        'Next.js',
+        'Tailwind CSS',
+        'Boorstrap 5',
+        'Zod',
+        'Shadcn UI',
+        'Redux',
+        'Zustand',
+        'Tanstack Query',
       ],
     },
     {
-      name: "Tools & Technologies",
-      keywords: ["Git", "Github Actions", "CI/CD", "WebSockets", "YJS"],
+      name: 'Tools & Technologies',
+      keywords: ['Git', 'Github Actions', 'CI/CD', 'WebSockets', 'YJS'],
     },
   ],
 };
@@ -219,18 +218,18 @@ export const reactNativeProfile = {
   ...baseProfile,
   basics: {
     ...baseProfile.basics,
-    label: "React Native Developer",
+    label: 'React Native Developer',
     summary:
-      "Mobile app developer specializing in React Native with experience in cross-platform development, native module integration, and performance optimization.",
+      'Mobile app developer specializing in React Native with experience in cross-platform development, native module integration, and performance optimization.',
   },
   work: [
     {
-      name: "Kibsons",
-      position: "Software Engineer",
-      link: "https://kibsons.com/",
-      location: "Dubai",
-      startDate: "March 2023",
-      endDate: "March 2025",
+      name: 'Kibsons',
+      position: 'Software Engineer',
+      link: 'https://kibsons.com/',
+      location: 'Dubai',
+      startDate: 'March 2023',
+      endDate: 'March 2025',
       summary: `
 Kibsons – Retail E-Commerce Startup (Dubai)
 Kibsons specializes in delivering fresh produce across Dubai, offering 90-minute delivery service.
@@ -249,12 +248,12 @@ App & Server Management: Managed application deployment and maintenance across p
       highlights: [],
     },
     {
-      name: "Convo",
-      position: "Frontend Developer",
-      location: "Pakistan",
-      startDate: "Nov 2021",
-      link: "https://app.convo.com/",
-      endDate: "March 2023",
+      name: 'Convo',
+      position: 'Frontend Developer',
+      location: 'Pakistan',
+      startDate: 'Nov 2021',
+      link: 'https://app.convo.com/',
+      endDate: 'March 2023',
       summary: `
 Contributed to Convo's react native app a client-side application, developing custom features and maintaining high performance.
 Reusable Components: Built custom libraries and widgets for use across the application, improving maintainability and development speed.
@@ -269,11 +268,11 @@ Extreme Networks Project: Collaborated with Extreme Networks on their Data And P
       highlights: [],
     },
     {
-      name: "Septem Systems",
-      position: "Software Engineer",
-      location: "Pakistan",
-      startDate: "May 2020",
-      endDate: "Oct 2021",
+      name: 'Septem Systems',
+      position: 'Software Engineer',
+      location: 'Pakistan',
+      startDate: 'May 2020',
+      endDate: 'Oct 2021',
       summary: `
 Custom Audio Player Development: Built a custom audio player using Howler.js for the Audio Playground App, developed with Vue.js on the frontend and Node.js on the backend.
 Frontend Collaboration: Worked closely with designers and the product team to create interactive components, including validated forms and an admin dashboard for the Audio Playground App.
@@ -288,35 +287,35 @@ Worked on insure123 app where a React app is loaded in shopify site and renders 
   ],
   skills: [
     {
-      name: "Languages",
-      keywords: ["TypeScript", "JavaScript"],
+      name: 'Languages',
+      keywords: ['TypeScript', 'JavaScript'],
     },
     {
-      name: "Frameworks & Libraries",
+      name: 'Frameworks & Libraries',
       keywords: [
-        "React Native",
-        "Expo",
-        "React",
-        "Next",
-        "Redux",
-        "Zustand",
-        "React Navigation",
-        "Tanstack Query",
-        "React Native Reanimated",
-        "React Native Gesture Handler",
+        'React Native',
+        'Expo',
+        'React',
+        'Next',
+        'Redux',
+        'Zustand',
+        'React Navigation',
+        'Tanstack Query',
+        'React Native Reanimated',
+        'React Native Gesture Handler',
       ],
     },
     {
-      name: "Tools & Technologies",
+      name: 'Tools & Technologies',
       keywords: [
-        "Git",
-        "App Store Connect",
-        "Google Play Console",
-        "Firebase",
-        "Stripe",
-        "Detox",
-        "Jest",
-        "React Native Testing Library",
+        'Git',
+        'App Store Connect',
+        'Google Play Console',
+        'Firebase',
+        'Stripe',
+        'Detox',
+        'Jest',
+        'React Native Testing Library',
       ],
     },
   ],
@@ -326,18 +325,18 @@ export const fullstackProfile = {
   ...baseProfile,
   basics: {
     ...baseProfile.basics,
-    label: "Software Developer",
+    label: 'Software Developer',
     summary:
-      "Software developer with expertise in both frontend and backend technologies. Experienced in building end-to-end applications using modern web technologies.",
+      'Software developer with expertise in both frontend and backend technologies. Experienced in building end-to-end applications using modern web technologies.',
   },
   work: [
     {
-      name: "Kibsons",
-      position: "Software Engineer",
-      link: "https://kibsons.com/",
-      location: "Dubai",
-      startDate: "March 2023",
-      endDate: "March 2025",
+      name: 'Kibsons',
+      position: 'Software Engineer',
+      link: 'https://kibsons.com/',
+      location: 'Dubai',
+      startDate: 'March 2023',
+      endDate: 'March 2025',
       summary: `
 Kibsons – Retail E-Commerce Startup (Dubai)
 Kibsons specializes in delivering fresh produce across Dubai, offering 90-minute delivery service.
@@ -359,12 +358,12 @@ App & Server Management: Managed application deployment and maintenance across p
       highlights: [],
     },
     {
-      name: "Convo",
-      position: "Frontend Developer",
-      location: "Pakistan",
-      startDate: "Nov 2021",
-      link: "https://app.convo.com/",
-      endDate: "March 2023",
+      name: 'Convo',
+      position: 'Frontend Developer',
+      location: 'Pakistan',
+      startDate: 'Nov 2021',
+      link: 'https://app.convo.com/',
+      endDate: 'March 2023',
       summary: `
 Company & Product Background: Convo is both a product company and an SCSS service provider for Silicon Valley clients.
 Web & Client Application Development: Contributed to Convo's web apps and multiple client-side applications, developing custom features and maintaining high performance.
@@ -381,11 +380,11 @@ Extreme Networks Project: Collaborated with Extreme Networks on their Data And P
       highlights: [],
     },
     {
-      name: "Septem Systems",
-      position: "Software Engineer",
-      location: "Pakistan",
-      startDate: "May 2020",
-      endDate: "Oct 2021",
+      name: 'Septem Systems',
+      position: 'Software Engineer',
+      location: 'Pakistan',
+      startDate: 'May 2020',
+      endDate: 'Oct 2021',
       summary: `
 Custom Audio Player Development: Built a custom audio player using Howler.js for the Audio Playground App, developed with Vue.js on the frontend and Node.js on the backend.
 Frontend Collaboration: Worked closely with designers and the product team to create interactive components, including validated forms and an admin dashboard for the Audio Playground App.
@@ -402,62 +401,44 @@ CMS & PHP Experience: Gained hands-on experience working with PHP-based applicat
   ],
   skills: [
     {
-      name: "Languages",
-      keywords: ["TypeScript", "JavaScript", "HTML", "CSS", "Python"],
+      name: 'Languages',
+      keywords: ['TypeScript', 'JavaScript', 'HTML', 'CSS', 'Python'],
     },
     {
-      name: "Frameworks & Libraries",
+      name: 'Frameworks & Libraries',
       keywords: [
-        "Node.js",
-        "Express.js",
-        "React.js",
-        "React Native",
-        "Next.js",
-        "Redux",
-        "Zustand",
-        "Zod",
-        "Tanstack Query",
-        "Swagger",
+        'Node.js',
+        'Express.js',
+        'React.js',
+        'React Native',
+        'Next.js',
+        'Redux',
+        'Zustand',
+        'Zod',
+        'Tanstack Query',
+        'Swagger',
       ],
     },
     {
-      name: "Backend & Databases",
-      keywords: [
-        "MongoDB",
-        "MsSQL",
-        "Prisma",
-        "Redis",
-        "Elasticsearch",
-        "Kafka",
-        "RabbitMQ",
-      ],
+      name: 'Backend & Databases',
+      keywords: ['MongoDB', 'MsSQL', 'Prisma', 'Redis', 'Elasticsearch', 'Kafka', 'RabbitMQ'],
     },
     {
-      name: "Tools & Technologies",
-      keywords: [
-        "Git",
-        "Github Actions",
-        "Docker",
-        "CI/CD",
-        "WebSockets",
-        "WebRTC",
-        "Socket.io",
-        "Docker",
-        "Jira",
-      ],
+      name: 'Tools & Technologies',
+      keywords: ['Git', 'Github Actions', 'Docker', 'CI/CD', 'WebSockets', 'WebRTC', 'Socket.io', 'Docker', 'Jira'],
     },
   ],
 };
 
 export const getProfileByType = (type) => {
   switch (type) {
-    case "Frontend":
+    case 'Frontend':
       return frontendProfile;
-    case "ReactNative":
+    case 'ReactNative':
       return reactNativeProfile;
-    case "FullStack":
+    case 'FullStack':
       return fullstackProfile;
     default:
       return fullstackProfile;
   }
-}; 
+};
